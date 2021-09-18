@@ -4,8 +4,8 @@
 # and have it run everytime the araay stops
 #
 # Copy terminal (zsh) history
-touch /boot/config/.zsh_history
-echo "$(cat /root/.zsh_history)" >> /boot/config/.zsh_history
+touch /boot/config/extra/history
+echo "$(cat /root/.zsh_history)" >> /boot/config/extra/history
 
 # Variable Setup
 CONFIG=/boot/config/ssh
