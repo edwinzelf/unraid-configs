@@ -43,3 +43,4 @@ touch /boot/config/extra/history
 # Symlink .zshrc and history files
 cp -sf /boot/config/extra/.zshrc /root/.zshrc
 cp -sf /boot/config/extra/history /root/.cache/zsh/history
+
